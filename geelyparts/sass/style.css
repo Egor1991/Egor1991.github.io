@@ -1,0 +1,143 @@
+/* line 1, C:/geelyparts/sass/style.scss */
+body, a, li, ul, p, h2, h1, h2, h3, h4, h5, img {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none; }
+
+/* line 7, C:/geelyparts/sass/style.scss */
+body {
+  width: 100%;
+  height: 100%;
+  }
+
+/* line 12, C:/geelyparts/sass/style.scss */
+#header {
+  width: 100%;
+  background-image: url(img/hbg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 20px; }
+  /* line 20, C:/geelyparts/sass/style.scss */
+  #header .top-information {
+    background-color: #2e2e2e; }
+    /* line 23, C:/geelyparts/sass/style.scss */
+    #header .top-information img {
+      width: 30px;
+      height: 20px; }
+  /* line 29, C:/geelyparts/sass/style.scss */
+  #header h2 {
+    color: whitesmoke;
+    font-family: 'Roboto';
+    font-weight: 700; }
+  /* line 37, C:/geelyparts/sass/style.scss */
+  #header p {
+    color: whitesmoke; }
+  /* line 41, C:/geelyparts/sass/style.scss */
+  #header .bgr-orange {
+    background-color: orange; }
+  /* line 44, C:/geelyparts/sass/style.scss */
+  #header span {
+    color: orange; }
+
+/* line 50, C:/geelyparts/sass/style.scss */
+.text-box h1, .text-box h2 {
+  font-weight: 500;
+  text-transform: uppercase; }
+
+/* line 55, C:/geelyparts/sass/style.scss */
+.text-box h5 {
+  text-transform: uppercase; }
+
+/* line 58, C:/geelyparts/sass/style.scss */
+.text-box .colorW {
+  color: whitesmoke; }
+
+/* line 59, C:/geelyparts/sass/style.scss */
+.text-box .colorB {
+  color: #2e2e2e; }
+
+/* line 62, C:/geelyparts/sass/style.scss */
+.text-box .shadowT {
+  text-shadow: 1px 3px 2px rgba(0, 0, 0, 0.6); }
+
+/* line 64, C:/geelyparts/sass/style.scss */
+.text-box span {
+  color: orange; }
+
+/* line 67, C:/geelyparts/sass/style.scss */
+.text-box .alpha {
+  opacity: 0.7; }
+
+/* line 72, C:/geelyparts/sass/style.scss */
+.BgcolorBl {
+  background-color: rgba(46, 46, 46, 0.7); }
+
+/* line 75, C:/geelyparts/sass/style.scss */
+.BgcolorBlack {
+  background-color: black; }
+
+/* line 78, C:/geelyparts/sass/style.scss */
+#inf-client {
+  background-image: url(img/bgt.jpg); }
+  /* line 83, C:/geelyparts/sass/style.scss */
+  #inf-client p {
+    margin: 1rem 0;
+    text-transform: uppercase;
+    font-weight: 100;
+    line-height: 16px; }
+
+/* line 91, C:/geelyparts/sass/style.scss */
+.border-t {
+  background-image: url(img/bordert.png);
+  height: 12px;
+  width: 100%; }
+
+/* line 97, C:/geelyparts/sass/style.scss */
+.border-b {
+  background-image: url(img/borderta.png);
+  height: 15px;
+  width: 100%;
+  background-color: black; }
+
+/* line 103, C:/geelyparts/sass/style.scss */
+.wrap {
+  background-image: url(img/borderta.png); }
+
+/* line 107, C:/geelyparts/sass/style.scss */
+#telephone {
+  background-color: orange; }
+
+/* line 110, C:/geelyparts/sass/style.scss */
+#how-we-works {
+  background-image: url(img/bgtb.jpg); }
+  /* line 112, C:/geelyparts/sass/style.scss */
+  #how-we-works p {
+    font-size: 1rem;
+    margin-left: 1rem;
+    margin-top: auto;
+    margin-bottom: auto; }
+  /* line 118, C:/geelyparts/sass/style.scss */
+  #how-we-works .media img {
+    width: 65px;
+    height: 65px; }
+
+/* line 123, C:/geelyparts/sass/style.scss */
+#footer {
+  color: whitesmoke; }
+  /* line 125, C:/geelyparts/sass/style.scss */
+  #footer a {
+    color: orange;
+    text-transform: uppercase; }
+
+/* line 130, C:/geelyparts/sass/style.scss */
+.line-top {
+  border-top: 2px solid rgba(109, 109, 109, 0.42); }
+
+/* line 134, C:/geelyparts/sass/style.scss */
+#shop .rounded {
+  width: 300px;
+  height: 300px;
+  border-radius: 300px; }
+
+/*# sourceMappingURL=style.css.map */
