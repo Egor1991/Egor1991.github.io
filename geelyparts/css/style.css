@@ -103,4 +103,7 @@ body {
   height: 300px;
   border-radius: 300px; }
 
+.jbForm_callme_order {
+  display: flex; }
+
 /*# sourceMappingURL=style.css.map */

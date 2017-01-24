@@ -6,15 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,500i,700,900&amp;subset=cyrillic" rel="stylesheet">
     <!-- Bootstrap CSS -->
-    
+    <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery.jbform.js"></script>	<!-- Плагин форм -->
+      <link rel="stylesheet" type="text/css" href="css/jquery.jbform.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     
     <link rel="stylesheet" href="css/style.css">
-    
+      <script type="text/javascript">// <![CDATA[
+    jQuery(document).ready(function($){
+        $('#form_container').jbform({ 
+            modal: false,
+
+        key: "8290756b42d04b06c1a7471e117d4b0a",
+        title: "ПОЛУЧИТЬ ИНФОРМАЦИЮ  О НАЛИЧИИ И СТОИМОСТИ В ТЕЧЕНИЕ 15 МИНУТ",
+        postfix: "callme_order",
+        fields: {
+            name: {
+                type: "text",
+                required: true,
+                placeholder: "Ваше имя"
+            },
+            tel: {
+                type: "text",
+                required: true,
+                placeholder: "Ваш номер телефона"
+            },
+            submit: {
+                type: "submit",
+                value: "Перезвоните мне"
+            }
+        }
+      });
+    }); </script> 
   </head>
   <body>
    <section id="header">
-    
+      
        <div class="container-fluid">
            <div class="row">
                <div class="col top-information">
@@ -62,19 +89,26 @@
                             </div>
                             
                            <div class="col-lg-4 col-md-5 col-xs-12 col-sm-12  text-box my-1">
-                               <form class="BgcolorBl  py-3 px-3" id="application" action=" app.php" method="POST" name=" application ">
+                             <div id="form_container" class="BgcolorBl "></div>
+                           <!--    <form class="BgcolorBl  py-3 px-3">
                                     <h5 class="text-center colorW mb-3">ПОЛУЧИТЬ ИНФОРМАЦИЮ 
                                     О НАЛИЧИИ И СТОИМОСТИ<br> 
                                     В ТЕЧЕНИЕ 15 МИНУТ
                                     </h5>
-                                    
-                                  <input name="name" id="applicationName" maxlength="20" placeholder="Введите ваше имя" required />
-			<input name="email" type="email" id="applicationEmail" maxlength="20" placeholder="Введите ваш E-mail" required/>
-			<input name="telephone" type="Tel" id="applicationTelephone" maxlength="20" placeholder="Введите ваш телефон" required />
-			<button class="applicationButton" type="submit" form="application"> Получить прайс </button>
-                                   </form>
+                                  <div class="form-group">
+                                    <input type="text" class="form-control" id="exampleInputText" placeholder="Ваше имя">
+                                  </div> 
+                                   <div class="form-group">
+                                    <input type="text" class="form-control" id="exampleInputText" placeholder="Ваш номер телефона">
+                                   </div>
+                                      <div class="form-group">
+                                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ваш email">
+                                   </div>
+                                   <div class="form-group">
+                                       <button type="button" class="btn btn-warning w-100"><h5>Позвонить мне</h5></button>
+                                   </div>
                                   </div>
-                               
+                               </form>-->
                            </div>
                        </div>
                    </div>
