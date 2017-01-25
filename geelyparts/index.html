@@ -37,6 +37,35 @@
             }
         }
       });
+     $('.YOUR_BUTTON').jbform({ // где YOUR_BUTTON - класс вашей кнопки. 
+    key: "8ff967be7ff7aaf4a73574ef7810c53b",
+    title: "Заказ обратного звонка",
+    copyright: false,
+    postfix: "call_me_normal",
+    fields: {
+        name: {
+            type: "text",
+            required: true,
+            placeholder: "Ваше имя",
+            wrapper_class: "form-control",
+            input_class: "form-group"
+        },
+        tel: {
+            type: "tel",
+            required: true,
+            placeholder: "Ваш номер телефона",
+            wrapper_class: "form-control"
+        },
+        submit: {
+            type: "submit",
+            value: "Перезвоните мне"
+        }
+    },
+    onShow: function(){
+        // Украина: '+38 (999) 999-99-99', любой номер телефона: '(999) 999-9999?99999'				
+        $('#jbForm_call_me_normal [name=tel]').mask('+7 (999) 999-99-99');
+    }
+  });
     }); </script> 
   </head>
   <body>
@@ -154,7 +183,7 @@
                          ОСТАВЬТЕ ТЕЛЕФОН, И МЫ МОМЕНТАЛЬНО С ВАМИ СВЯЖЕМСЯ!</h2>
                    </div>
                    <div class="col text-center">
-                      <button type="button" class="btn btn-danger  mt-3"><h5>Позвонить мне</h5></button>
+                      <button type="button" class="YOUR_BUTTON btn btn-danger  mt-3"><h5>Позвонить мне</h5></button>
                    </div>
                </div>
            </div>
@@ -207,7 +236,7 @@
                пн-пт 8<sup>00</sup>-18<sup>00</sup>, 
                сб-вс 8<sup>00</sup>-16<sup>00</sup></div>
               
-               <div class="col-xs-12 col-sm-6   col-md-4 col-lg-4 py-3 "> <button type="button" class="btn btn-warning w-100"><h5>Позвонить мне</h5></button></div>
+               <div class="col-xs-12 col-sm-6   col-md-4 col-lg-4 py-3 "> <button type="button" class=" YOUR_BUTTON btn btn-warning w-100"><h5>Позвонить мне</h5></button></div>
                 <div class="col-xs-12 col-sm-6 offset-md-2 offset-lg-2 col-md-2 col-lg-2  py-3 alpha"><small>ИП ЕГОРОВ ЕГОР,<br>УНП:1925010230, Т:+375(44)571-21-05.</div></small>
                </div>
            <div class="col-12 text-center py-3 alpha line-top"><small>Разработал:Egor1991E<br>skype:Egor1991E</small></div>
