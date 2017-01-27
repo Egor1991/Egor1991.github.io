@@ -1,330 +1,148 @@
-/* line 1, C:/bs4f/sass/style.scss */
-$headerAcolor: #9f9fa0;
-$headerAcolorHref: #1b1c1e;
-$headerButtonBlue: #267df4;
+body,a,li,ul,p,h2,h1,h2,h3,h4,h5,img{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
 body{
-font-family: 'Lato', sans-serif;
+    width:100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    a{
+        color:whitesmoke;
+    }
 }
 #header{
-    height: 100%;
-    background-image: url(img/headerB.jpg);
-    background-size: cover; 
     width:100%;
+    background-image: url(img/hbg.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
-    
-}
-.logo{
-  
-    width:100%;
-    padding: 20px;
-    background-image: url(img/logo.png);
-    background-position:center center;
-    background-repeat: no-repeat;
-}
-.header-nav{      
-        a{  text-decoration: none;
-            color:$headerAcolorHref;
-            font-size: 16px;
-            margin-right: 10px;
-        }
-    
-        a:nth-child(3)
-        {
-            margin-right: 0;
-        }
-    
-        a:hover{
-        color:$headerAcolor;
-        }
-    
-        .btn-image{
-        padding: 10px 10px 10px 30px;
-        background-image: url(img/AppleIcon.png);
-        background-position: 7px center;
-        background-repeat: no-repeat;
-        color:white;
-        }
-    
-}
- .btn-white{
-        color:$headerAcolorHref;
-        border:1px solid #d2d2d3;
-        border-radius: 25px;
-        margin-top:5%;
-        text-decoration: none;
-}
-.btn-blue{
-        border-radius: 25px;
-        color:white;
-        background-color: $headerButtonBlue;
-        text-decoration: none;
-}
 
-.header-text{
-    padding-top:5%;
-    padding-bottom: 5%;
-    text-align: center;
-    
-    h1{    
-        width:100%;
-        font-size:-3vw;
-    }
-    p{
-        margin-bottom: 5%;
-        color:#9f9fa0;
-    }
-    .btn-image
-    {       padding: 9px 20px 10px 39px;
-            background-image: url(img/PlayIcon.png);
-            background-position: 17px center;
-            background-repeat: no-repeat;
-            height: 10px;
-            width: 10px;
-       
-    }
+      background-position: center 20px;
    
-}
-
-.row-fl-jc-c{
-justify-content: center;
-}
-.row-fl-ac-e{
-    align-content: flex-end;
-}
-.row-fl-jc-sb{
-    justify-content: space-between;
-}
-.row-fl-jc-sr{
-    justify-content: space-around;
-}
-.row-fl-fd-rr{
-    flex-direction: row-reverse;
-}
-
-.h-img-wrap{
-    max-width: 400px;
-    height:auto;
-    padding: 20px;
-    padding-bottom: 0px;   
-}
-
-.border-row-b{
-    width:100%;
-    max-width:1140px;
-    align-items: flex-end;
-    border-bottom: 1px solid rgba(230, 230, 230, 0.79);
-    margin-top: 5%;
-}
-.box{
-      
-    min-width: 300px;
-    h1{   
-        font-size:-3vw;
-        color:#26272d;
-        padding:3% 0 0 0;    
-    }
-    p{
-        color:#8c8f94;
-        font-size:18px;
-        padding:3% 0 0 0;  
-    }
-    img{
-        max-width: 100%;
-        height: auto;
-    }
-     .title{
-        
-        font-size: 12px;
-        text-transform: uppercase;
-        font-weight: bold;
-    }
-  
-   
-    a{
-        color:#8c8f94;
-        text-decoration: none;
-    }
-}
- .shadow{
-        box-shadow: 0 0 10px rgba(0,0,0,0.2)
-    }
-/*# sourceMappingURL=style.css.map */
-#iPhoneFeature {
+    .top-information{
     
-  width:100%;
-  height: auto;
-    .btn-image{
-        padding: 3px 45px 5px 10px;
-        background-image: url(img/ArrowIcon.png);
-        background-position: 125px center;
-        background-repeat: no-repeat;
-        }
-    
-    .btn-padding{
-        padding: 3px 10px 5px 10px;
-        margin-left:10px;
-    }
-    a{
-    text-decoration: none;
-    }
-}
-#MapFeature{  
-        a{
-            margin-right: 3%
-        }
-    
-}
-#iPhoneScreens{
-    background-color: #f5f5f8;
-  
-    img{
-        text-align: center;
-    }
-    h1{
-        text-align: center;
-      
-    }
-    hr{
-        margin: 3% auto 0 auto;
-        width:100px;
-        height: 1px;
-        background-color: #267df4;
-    }
-    p{
-        text-align: center;
-        text-transform: uppercase;
-        font-size: 12px;
-    }
-    .img{
-        background-image: url(img/IphoneSlide.jpg);
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        width:100%;
-        height: 650px;
-
-    }
-    h2{
-        text-align: center;
-    }
-    .form-control{
-        padding-left:20px;
-    }
-    .btn-image{
-        padding-right: 40px;
-        background-image: url(img/ArrowIcon.png);
-        background-position: 100px center;
-        background-repeat: no-repeat;
-    }
-    
-}
-#Customers{
-   
-    
-    .img-size-center{
-     width:150px;
-       height: 150px;
-    
-       
-    }
-    .arrow{
-        width:25px;
-        height:25px;
-    }
-    .img-size{
-        width:100px;
-        height: 100px;
-        opacity: 0.4;
-    }
-    .slider-wrap{
-        height: 100px; 
-    }
-    
-    
-}
-#Plan{
-    background-color: #f5f5f8;
-   
-    .btn-white{
-        background-color: rgba(191, 191, 191, 0.53);
-       
-    }
-    .rounded{
-        border-radius: 25px;
-    }
-    .btn-white.active{
-        background-color:white;
-    }
-    .tt{
-        transform: rotate(270deg); 
-        color:green;
-    }
-      span{
-        border:1px solid grey;
-    }
-    
-}
-.container-fluid{
-    max-width: 1440px;
-}
-
-#Free{
-    z-index: 2;
-    min-width: 250px;
-    max-width:300px;
-    height:450px;
-    background-color: #fff;
-    img{
-    width:10px;
-    height: 10px;
-    margin-top:-3px;
-        margin-right: 5px;}
-   
-}
-.bg_color{
-    background-color: white;
-}
-#Pro{
-  z-index: 1;
-  min-width: 250px;
-  max-width: 300px;
-  height:400px;
-      background-color: rgba(229, 229, 229, 1);
-    a{
-        color:#267df4;
-        border:1px solid #267df4;
-    }img{
-    width:10px;
-    height: 10px;
-    margin-top:-3px;
-        margin-right: 5px;}
-}
-#Footer{
-    .logo{
-        background-position: left;
-    }
-    ul{ 
-        list-style: none;
-    
-    li.social {
-            margin-right: 1.5em;
-        }
-        li{
-            margin-top: 1em;
-        }
-    }
-    a {
-        
+        background-color: rgb(46, 46, 46);
         img{
-            opacity: 0.5;
-        }
-        img:hover{
-            opacity: 1;
-        }
+        width:30px;
+        height: 20px;
     }
-    .tittle{
-        font-size: 16px;
+    }
+  
+    h2{
+        color:whitesmoke;
+        font-family: 'Roboto';
+        font-weight: 700;
+        
+        
+    }
+   
+    p{
+        color:whitesmoke;
+        
+    }
+    .bgr-orange{
+        background-color: orange;
+    }
+     span{
+                color:orange;
+         }
+    
+}
+.text-box{
+    h1,h2{
+        font-weight: 500;
+        text-transform: uppercase;
+        
+    } 
+    h5{    
+        text-transform: uppercase;
+    }
+    .colorW{color:whitesmoke;}
+    .colorB{color:rgb(46, 46, 46);}
+    
+   
+    .shadowT{text-shadow: 1px 3px 2px rgba(0, 0, 0, 0.6);
+    }
+     span{
+                color:orange;
+         }
+    .alpha{
+        opacity: 0.7;
     }
     
+}
+ .BgcolorBl{
+       background-color:rgba(46,46,46,0.7);
+    }
+.BgcolorBlack{
+       background-color:rgb(0, 0, 0);
+    }
+#inf-client{
+background-image: url(img/bgt.jpg);
+
+   
+    
+    p{ margin:1rem 0;
+        text-transform: uppercase;
+        font-weight: 100;
+        line-height: 16px;
+        
+    }
+  
+}
+.border-t{
+        background-image: url(img/bordert.png);
+        height:12px;
+        width:100%;
+         
+    }
+.border-b{
+        background-image: url(img/borderta.png);
+        height:15px;
+        width:100%;
+         background-color: black;
+    }
+ .wrap{
+        background-image: url(img/borderta.png);
+        
+}
+#telephone{
+    background-color: orange;
+}
+#how-we-works{
+    background-image: url(img/bgtb.jpg);
+    p{
+        font-size:1rem;
+        margin-left:1rem;
+        margin-top:auto;
+        margin-bottom: auto;
+    }
+    .media img{
+        width:65px;
+        height: 65px;
+    }
+}
+#footer{
+    color:whitesmoke;
+    a{
+        color:orange;
+        text-transform: uppercase;
+    }
+}
+.line-top{
+    border-top: 2px solid rgba(109, 109, 109, 0.42);
+}
+#shop{
+    .rounded{
+        width:300px;
+        height:300px;
+        border-radius: 300px;
+    }
+}
+.jbForm_callme_order{
+    display: flex;
+}
+#vk:hover{
+    border:1px solid orange;
 }

@@ -1,244 +1,114 @@
-/* line 1, C:/bs4f/sass/style.scss */
+body, a, li, ul, p, h2, h1, h2, h3, h4, h5, img {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none; }
+
 body {
-  font-family: 'Lato', sans-serif; }
+  width: 100%;
+  height: 100%;
+  font-family: 'Roboto', sans-serif; }
+  body a {
+    color: whitesmoke; }
 
 #header {
-  height: 100%;
-  background-image: url(img/headerB.jpg);
+  width: 100%;
+  background-image: url(img/hbg.jpg);
   background-size: cover;
-  width: 100%;
   background-repeat: no-repeat;
-  background-position: center; }
+  background-position: center 20px; }
+  #header .top-information {
+    background-color: #2e2e2e; }
+    #header .top-information img {
+      width: 30px;
+      height: 20px; }
+  #header h2 {
+    color: whitesmoke;
+    font-family: 'Roboto';
+    font-weight: 700; }
+  #header p {
+    color: whitesmoke; }
+  #header .bgr-orange {
+    background-color: orange; }
+  #header span {
+    color: orange; }
 
-.logo {
-  width: 100%;
-  padding: 20px;
-  background-image: url(img/logo.png);
-  background-position: center center;
-  background-repeat: no-repeat; }
+.text-box h1, .text-box h2 {
+  font-weight: 500;
+  text-transform: uppercase; }
+.text-box h5 {
+  text-transform: uppercase; }
+.text-box .colorW {
+  color: whitesmoke; }
+.text-box .colorB {
+  color: #2e2e2e; }
+.text-box .shadowT {
+  text-shadow: 1px 3px 2px rgba(0, 0, 0, 0.6); }
+.text-box span {
+  color: orange; }
+.text-box .alpha {
+  opacity: 0.7; }
 
-.header-nav a {
-  text-decoration: none;
-  color: #1b1c1e;
-  font-size: 16px;
-  margin-right: 10px; }
-.header-nav a:nth-child(3) {
-  margin-right: 0; }
-.header-nav a:hover {
-  color: #9f9fa0; }
-.header-nav .btn-image {
-  padding: 10px 10px 10px 30px;
-  background-image: url(img/AppleIcon.png);
-  background-position: 7px center;
-  background-repeat: no-repeat;
-  color: white; }
+.BgcolorBl {
+  background-color: rgba(46, 46, 46, 0.7); }
 
-.btn-white {
-  color: #1b1c1e;
-  border: 1px solid #d2d2d3;
-  border-radius: 25px;
-  margin-top: 5%;
-  text-decoration: none; }
+.BgcolorBlack {
+  background-color: black; }
 
-.btn-blue {
-  border-radius: 25px;
-  color: white;
-  background-color: #267df4;
-  text-decoration: none; }
-
-.header-text {
-  padding-top: 5%;
-  padding-bottom: 5%;
-  text-align: center; }
-  .header-text h1 {
-    width: 100%;
-    font-size: -3vw; }
-  .header-text p {
-    margin-bottom: 5%;
-    color: #9f9fa0; }
-  .header-text .btn-image {
-    padding: 9px 20px 10px 39px;
-    background-image: url(img/PlayIcon.png);
-    background-position: 17px center;
-    background-repeat: no-repeat;
-    height: 10px;
-    width: 10px; }
-
-.row-fl-jc-c {
-  justify-content: center; }
-
-.row-fl-ac-e {
-  align-content: flex-end; }
-
-.row-fl-jc-sb {
-  justify-content: space-between; }
-
-.row-fl-jc-sr {
-  justify-content: space-around; }
-
-.row-fl-fd-rr {
-  flex-direction: row-reverse; }
-
-.h-img-wrap {
-  max-width: 400px;
-  height: auto;
-  padding: 20px;
-  padding-bottom: 0px; }
-
-.border-row-b {
-  width: 100%;
-  max-width: 1140px;
-  align-items: flex-end;
-  border-bottom: 1px solid rgba(230, 230, 230, 0.79);
-  margin-top: 5%; }
-
-.box {
-  min-width: 300px; }
-  .box h1 {
-    font-size: -3vw;
-    color: #26272d;
-    padding: 3% 0 0 0; }
-  .box p {
-    color: #8c8f94;
-    font-size: 18px;
-    padding: 3% 0 0 0; }
-  .box img {
-    max-width: 100%;
-    height: auto; }
-  .box .title {
-    font-size: 12px;
+#inf-client {
+  background-image: url(img/bgt.jpg); }
+  #inf-client p {
+    margin: 1rem 0;
     text-transform: uppercase;
-    font-weight: bold; }
-  .box a {
-    color: #8c8f94;
-    text-decoration: none; }
+    font-weight: 100;
+    line-height: 16px; }
 
-.shadow {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); }
+.border-t {
+  background-image: url(img/bordert.png);
+  height: 12px;
+  width: 100%; }
 
-/*# sourceMappingURL=style.css.map */
-#iPhoneFeature {
+.border-b {
+  background-image: url(img/borderta.png);
+  height: 15px;
   width: 100%;
-  height: auto; }
-  #iPhoneFeature .btn-image {
-    padding: 3px 45px 5px 10px;
-    background-image: url(img/ArrowIcon.png);
-    background-position: 125px center;
-    background-repeat: no-repeat; }
-  #iPhoneFeature .btn-padding {
-    padding: 3px 10px 5px 10px;
-    margin-left: 10px; }
-  #iPhoneFeature a {
-    text-decoration: none; }
+  background-color: black; }
 
-#MapFeature a {
-  margin-right: 3%; }
+.wrap {
+  background-image: url(img/borderta.png); }
 
-#iPhoneScreens {
-  background-color: #f5f5f8; }
-  #iPhoneScreens img {
-    text-align: center; }
-  #iPhoneScreens h1 {
-    text-align: center; }
-  #iPhoneScreens hr {
-    margin: 3% auto 0 auto;
-    width: 100px;
-    height: 1px;
-    background-color: #267df4; }
-  #iPhoneScreens p {
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 12px; }
-  #iPhoneScreens .img {
-    background-image: url(img/IphoneSlide.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 650px; }
-  #iPhoneScreens h2 {
-    text-align: center; }
-  #iPhoneScreens .form-control {
-    padding-left: 20px; }
-  #iPhoneScreens .btn-image {
-    padding-right: 40px;
-    background-image: url(img/ArrowIcon.png);
-    background-position: 100px center;
-    background-repeat: no-repeat; }
+#telephone {
+  background-color: orange; }
 
-#Customers .img-size-center {
-  width: 150px;
-  height: 150px; }
-#Customers .arrow {
-  width: 25px;
-  height: 25px; }
-#Customers .img-size {
-  width: 100px;
-  height: 100px;
-  opacity: 0.4; }
-#Customers .slider-wrap {
-  height: 100px; }
+#how-we-works {
+  background-image: url(img/bgtb.jpg); }
+  #how-we-works p {
+    font-size: 1rem;
+    margin-left: 1rem;
+    margin-top: auto;
+    margin-bottom: auto; }
+  #how-we-works .media img {
+    width: 65px;
+    height: 65px; }
 
-#Plan {
-  background-color: #f5f5f8; }
-  #Plan .btn-white {
-    background-color: rgba(191, 191, 191, 0.53); }
-  #Plan .rounded {
-    border-radius: 25px; }
-  #Plan .btn-white.active {
-    background-color: white; }
-  #Plan .tt {
-    transform: rotate(270deg);
-    color: green; }
-  #Plan span {
-    border: 1px solid grey; }
+#footer {
+  color: whitesmoke; }
+  #footer a {
+    color: orange;
+    text-transform: uppercase; }
 
-.container-fluid {
-  max-width: 1440px; }
+.line-top {
+  border-top: 2px solid rgba(109, 109, 109, 0.42); }
 
-#Free {
-  z-index: 2;
-  min-width: 250px;
-  max-width: 300px;
-  height: 450px;
-  background-color: #fff; }
-  #Free img {
-    width: 10px;
-    height: 10px;
-    margin-top: -3px;
-    margin-right: 5px; }
+#shop .rounded {
+  width: 300px;
+  height: 300px;
+  border-radius: 300px; }
 
-.bg_color {
-  background-color: white; }
+.jbForm_callme_order {
+  display: flex; }
 
-#Pro {
-  z-index: 1;
-  min-width: 250px;
-  max-width: 300px;
-  height: 400px;
-  background-color: #e5e5e5; }
-  #Pro a {
-    color: #267df4;
-    border: 1px solid #267df4; }
-  #Pro img {
-    width: 10px;
-    height: 10px;
-    margin-top: -3px;
-    margin-right: 5px; }
-
-#Footer .logo {
-  background-position: left; }
-#Footer ul {
-  list-style: none; }
-  #Footer ul li.social {
-    margin-right: 1.5em; }
-  #Footer ul li {
-    margin-top: 1em; }
-#Footer a img {
-  opacity: 0.5; }
-#Footer a img:hover {
-  opacity: 1; }
-#Footer .tittle {
-  font-size: 16px; }
+#vk:hover {
+  border: 1px solid orange; }
 
 /*# sourceMappingURL=style.css.map */
