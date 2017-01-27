@@ -10,8 +10,8 @@ body {
   font-family: 'Roboto', sans-serif; }
   body a {
     color: whitesmoke; }
-h1{
-  font-size:1.4rem;
+h1,h5{
+  font-size:125%;
 }
 #header {
   width: 100%;
