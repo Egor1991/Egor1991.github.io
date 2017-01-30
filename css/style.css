@@ -124,5 +124,7 @@ max-height: 320px;}
 
 @media screen and (max-width: 600px) {
 h1 {font-size: 8vw;}
+    h2{font-size:6vw;}
+   
 }
 /*# sourceMappingURL=style.css.map */
