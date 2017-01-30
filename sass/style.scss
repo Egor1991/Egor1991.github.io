@@ -14,7 +14,7 @@ body{
 }
 #header{
     width:100%;
-    background-image: url(img/hbg.jpg);
+    background-image: url(img/sl1.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -80,7 +80,8 @@ body{
     }
 #inf-client{
 background-image: url(img/bgt.jpg);
-
+background-color:white;
+z-index: 200;
    
     
     p{ margin:1rem 0;
@@ -95,7 +96,7 @@ background-image: url(img/bgt.jpg);
         background-image: url(img/bordert.png);
         height:12px;
         width:100%;
-         
+         z-index: 100;
     }
 .border-b{
         background-image: url(img/borderta.png);

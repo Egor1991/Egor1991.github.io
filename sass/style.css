@@ -1,153 +1,157 @@
-/* line 1, C:/geelyparts/sass/style.scss */
+@charset "UTF-8";
+/* line 1, C:/Users/админушка/Documents/GitHub/Egor1991.github.io/sass/style.scss */
 body, a, li, ul, p, h2, h1, h2, h3, h4, h5, img {
   margin: 0;
   padding: 0;
   list-style: none;
   text-decoration: none; }
 
-/* line 7, C:/geelyparts/sass/style.scss */
+/* line 7, C:/Users/админушка/Documents/GitHub/Egor1991.github.io/sass/style.scss */
 body {
   width: 100%;
   height: 100%;
   font-family: 'Roboto', sans-serif; }
-  /* line 11, C:/geelyparts/sass/style.scss */
+  /* line 11, C:/Users/админушка/Documents/GitHub/Egor1991.github.io/sass/style.scss */
   body a {
     color: whitesmoke; }
 
-/* line 15, C:/geelyparts/sass/style.scss */
+/* line 15, C:/Users/админушка/Documents/GitHub/Egor1991.github.io/sass/style.scss */
 #header {
   width: 100%;
-  background-image: url(img/hbg.jpg);
+  background-image: url(img/sl1.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center 20px; }
-  /* line 23, C:/geelyparts/sass/style.scss */
+  /* line 23, C:/Users/админушка/Documents/GitHub/Egor1991.github.io/sass/style.scss */
   #header .top-information {
     background-color: #2e2e2e; }
-    /* line 26, C:/geelyparts/sass/style.scss */
+    /* line 26, C:/Users/админушка/Documents/GitHub/Egor1991.github.io/sass/style.scss */
     #header .top-information img {
       width: 30px;
       height: 20px; }
-  /* line 32, C:/geelyparts/sass/style.scss */
+  /* line 32, C:/Users/админушка/Documents/GitHub/Egor1991.github.io/sass/style.scss */
   #header h2 {
     color: whitesmoke;
     font-family: 'Roboto';
     font-weight: 700; }
-  /* line 40, C:/geelyparts/sass/style.scss */
+  /* line 40, C:/Users/админушка/Documents/GitHub/Egor1991.github.io/sass/style.scss */
   #header p {
     color: whitesmoke; }
-  /* line 44, C:/geelyparts/sass/style.scss */
+  /* line 44, C:/Users/админушка/Documents/GitHub/Egor1991.github.io/sass/style.scss */
   #header .bgr-orange {
     background-color: orange; }
-  /* line 47, C:/geelyparts/sass/style.scss */
+  /* line 47, C:/Users/админушка/Documents/GitHub/Egor1991.github.io/sass/style.scss */
   #header span {
     color: orange; }
 
-/* line 53, C:/geelyparts/sass/style.scss */
+/* line 53, C:/Users/админушка/Documents/GitHub/Egor1991.github.io/sass/style.scss */
 .text-box h1, .text-box h2 {
   font-weight: 500;
   text-transform: uppercase; }
 
-/* line 58, C:/geelyparts/sass/style.scss */
+/* line 58, C:/Users/админушка/Documents/GitHub/Egor1991.github.io/sass/style.scss */
 .text-box h5 {
   text-transform: uppercase; }
 
-/* line 61, C:/geelyparts/sass/style.scss */
+/* line 61, C:/Users/админушка/Documents/GitHub/Egor1991.github.io/sass/style.scss */
 .text-box .colorW {
   color: whitesmoke; }
 
-/* line 62, C:/geelyparts/sass/style.scss */
+/* line 62, C:/Users/админушка/Documents/GitHub/Egor1991.github.io/sass/style.scss */
 .text-box .colorB {
   color: #2e2e2e; }
 
-/* line 65, C:/geelyparts/sass/style.scss */
+/* line 65, C:/Users/админушка/Documents/GitHub/Egor1991.github.io/sass/style.scss */
 .text-box .shadowT {
   text-shadow: 1px 3px 2px rgba(0, 0, 0, 0.6); }
 
-/* line 67, C:/geelyparts/sass/style.scss */
+/* line 67, C:/Users/админушка/Documents/GitHub/Egor1991.github.io/sass/style.scss */
 .text-box span {
   color: orange; }
 
-/* line 70, C:/geelyparts/sass/style.scss */
+/* line 70, C:/Users/админушка/Documents/GitHub/Egor1991.github.io/sass/style.scss */
 .text-box .alpha {
   opacity: 0.7; }
 
-/* line 75, C:/geelyparts/sass/style.scss */
+/* line 75, C:/Users/админушка/Documents/GitHub/Egor1991.github.io/sass/style.scss */
 .BgcolorBl {
   background-color: rgba(46, 46, 46, 0.7); }
 
-/* line 78, C:/geelyparts/sass/style.scss */
+/* line 78, C:/Users/админушка/Documents/GitHub/Egor1991.github.io/sass/style.scss */
 .BgcolorBlack {
   background-color: black; }
 
-/* line 81, C:/geelyparts/sass/style.scss */
+/* line 81, C:/Users/админушка/Documents/GitHub/Egor1991.github.io/sass/style.scss */
 #inf-client {
-  background-image: url(img/bgt.jpg); }
-  /* line 86, C:/geelyparts/sass/style.scss */
+  background-image: url(img/bgt.jpg);
+  background-color: white;
+  z-index: 200; }
+  /* line 87, C:/Users/админушка/Documents/GitHub/Egor1991.github.io/sass/style.scss */
   #inf-client p {
     margin: 1rem 0;
     text-transform: uppercase;
     font-weight: 100;
     line-height: 16px; }
 
-/* line 94, C:/geelyparts/sass/style.scss */
+/* line 95, C:/Users/админушка/Documents/GitHub/Egor1991.github.io/sass/style.scss */
 .border-t {
   background-image: url(img/bordert.png);
   height: 12px;
-  width: 100%; }
+  width: 100%;
+  z-index: 100; }
 
-/* line 100, C:/geelyparts/sass/style.scss */
+/* line 101, C:/Users/админушка/Documents/GitHub/Egor1991.github.io/sass/style.scss */
 .border-b {
   background-image: url(img/borderta.png);
   height: 15px;
   width: 100%;
   background-color: black; }
 
-/* line 106, C:/geelyparts/sass/style.scss */
+/* line 107, C:/Users/админушка/Documents/GitHub/Egor1991.github.io/sass/style.scss */
 .wrap {
   background-image: url(img/borderta.png); }
 
-/* line 110, C:/geelyparts/sass/style.scss */
+/* line 111, C:/Users/админушка/Documents/GitHub/Egor1991.github.io/sass/style.scss */
 #telephone {
   background-color: orange; }
 
-/* line 113, C:/geelyparts/sass/style.scss */
+/* line 114, C:/Users/админушка/Documents/GitHub/Egor1991.github.io/sass/style.scss */
 #how-we-works {
   background-image: url(img/bgtb.jpg); }
-  /* line 115, C:/geelyparts/sass/style.scss */
+  /* line 116, C:/Users/админушка/Documents/GitHub/Egor1991.github.io/sass/style.scss */
   #how-we-works p {
     font-size: 1rem;
     margin-left: 1rem;
     margin-top: auto;
     margin-bottom: auto; }
-  /* line 121, C:/geelyparts/sass/style.scss */
+  /* line 122, C:/Users/админушка/Documents/GitHub/Egor1991.github.io/sass/style.scss */
   #how-we-works .media img {
     width: 65px;
     height: 65px; }
 
-/* line 126, C:/geelyparts/sass/style.scss */
+/* line 127, C:/Users/админушка/Documents/GitHub/Egor1991.github.io/sass/style.scss */
 #footer {
   color: whitesmoke; }
-  /* line 128, C:/geelyparts/sass/style.scss */
+  /* line 129, C:/Users/админушка/Documents/GitHub/Egor1991.github.io/sass/style.scss */
   #footer a {
     color: orange;
     text-transform: uppercase; }
 
-/* line 133, C:/geelyparts/sass/style.scss */
+/* line 134, C:/Users/админушка/Documents/GitHub/Egor1991.github.io/sass/style.scss */
 .line-top {
   border-top: 2px solid rgba(109, 109, 109, 0.42); }
 
-/* line 137, C:/geelyparts/sass/style.scss */
+/* line 138, C:/Users/админушка/Documents/GitHub/Egor1991.github.io/sass/style.scss */
 #shop .rounded {
   width: 300px;
   height: 300px;
   border-radius: 300px; }
 
-/* line 143, C:/geelyparts/sass/style.scss */
+/* line 144, C:/Users/админушка/Documents/GitHub/Egor1991.github.io/sass/style.scss */
 .jbForm_callme_order {
   display: flex; }
 
-/* line 146, C:/geelyparts/sass/style.scss */
+/* line 147, C:/Users/админушка/Documents/GitHub/Egor1991.github.io/sass/style.scss */
 #vk:hover {
   border: 1px solid orange; }
 

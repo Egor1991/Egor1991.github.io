@@ -5,44 +5,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,500i,700,900&amp;subset=cyrillic" rel="stylesheet">
-    <!-- Bootstrap CSS -->
-    <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
-    <script type="text/javascript" src="js/jquery.jbform.js"></script>	<!-- Плагин форм -->
-      <link rel="stylesheet" type="text/css" href="css/jquery.jbform.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <script type="text/javascript" src="js/jquery.maskedinput.js"></script>
     <link rel="stylesheet" href="css/style.css">
-      <script type="text/javascript">// <![CDATA[
-    jQuery(document).ready(function($){
-        $('#form_container').jbform({ 
-            modal: false,
 
-        key: "8290756b42d04b06c1a7471e117d4b0a",
-        title: "ПОЛУЧИТЬ ИНФОРМАЦИЮ  О НАЛИЧИИ И СТОИМОСТИ В ТЕЧЕНИЕ 15 МИНУТ",
-        postfix: "callme_order",
-        fields: {
-            name: {
-                type: "text",
-                required: true,
-                placeholder: "Ваше имя"
-            },
-            tel: {
-                type: "text",
-                required: true,
-                placeholder: "Ваш номер телефона"
-            },
-            submit: {
-                type: "submit",
-                value: "Перезвоните мне"
-            }
-        },
-           
-      });
-    }); </script> 
   </head>
   <body>
+  
    <section id="header">
-      
+      <div class="bgimg"></div>
        <div class="container-fluid">
            <div class="row">
                <div class="col-12 top-information">
@@ -70,29 +40,41 @@
                        </div>
                    </div>
                </div>
-               <div class="col-12 py-5">
+               <div class="col-12 py-5 my-5">
                    <div class="container">
                        <div class="row ">
-                           <div class="offset-lg-1 offset-md-1 col-lg-6 col-md-6 col-xs-12 col-sm-12 text-box   d-flex flex-column justify-content-between">
-                            <div class="wrap-item">
-                            <h1 class="colorW shadowT">
+                           <div class=" col-lg-6 col-md-6 col-xs-12 col-sm-12 text-box   d-flex flex-column justify-content-between ">
+                            <div class="wrap-item BgcolorBl p-2 mb-2">
+                            <h1 class="colorW shadowT text-center text-md-left ">
                             Качественные запчасти
                             </h1>
-                            <p class="shadowT colorW">
-                            Широкий ассортимент автозапчастей высокго качества по доступным ценам
+                            <p class="shadowT colorW text-center text-md-left ">
+                            Широкий ассортимент автозапчастей высокого качества по доступным ценам
                             для автомобилей GEELY
                             </p>
                             </div>
-                            <div class="media BgcolorBl p-3">
+                            <div class="media BgcolorBl p-2">
                                 <a id="vk" href="http://vk.com"><img src="css/img/vk.jpg" alt="vk"></a>
                                 <h5 class="colorW shadowT px-3 m-auto">Зарегестрируйся в нашей группе 
                                 вконтакте и получи    <span>скидку</span> </h5>
                                  </div>
                             </div>
                             
-                           <div class="col-lg-4 col-md-5 col-xs-12 col-sm-12  text-box my-1">
-                             <div id="form_container" class="BgcolorBl "></div>
-                         
+                           <div class="offset-lg-2 col-lg-4 col-md-5 col-xs-12 col-sm-12  text-box  ">
+                             <!-- Begin Freedback Form -->
+<!-- DO NOT EDIT YOUR FORM HERE, PLEASE LOG IN AND EDIT AT FREEDBACK.COM -->
+<form enctype="multipart/form-data" method="post" action="http://www.freedback.com/mail.php" accept-charset="UTF-8">
+	<div class="form-group text-center BgcolorBl p-3">
+	    <h5 class="colorW">ПОЛУЧИТЬ ИНФОРМАЦИЮ О НАЛИЧИИ И СТОИМОСТИ В ТЕЧЕНИЕ 15 МИНУТ</h5>
+		<input type="hidden" name="acctid" id="acctid" value="z0h66kcdajocj3m6" />
+		<input type="hidden" name="formid" id="formid" value="1296002" />
+		<input type="hidden" name="required_vars" id="required_vars" value="name,email" />
+        <input type="text" class="form-control mt-4" name="name" id="name" size="40" value="" placeholder="Ваше имя" />
+        <input type="text" class="form-control my-4" name="email" id="email" size="40" value="" placeholder="Ваш телефон"/>
+        <input type="submit" class="btn w-100 btn-warning " value="ПОЗВОНИТЬ МНЕ" />
+	</div>
+
+</form>
                            </div>
                        </div>
                    </div>
@@ -100,10 +82,10 @@
            </div>
        </div>
    </section>
-   <section id="inf-client">
-       <div class="border-t"> 
+   <section id="inf-client" class="container-fluid" >
+       <div class="row border-t "> 
        </div>
-       <div class="wrap py-5">
+       <div class="row wrap py-5">
        <div class="container">
            <div class="row justify-content-around text-box ">
             <div class="col-12 mb-5 ">
@@ -129,8 +111,8 @@
        </div>
        </div>
    </section>
-   <section id="telephone">
-       <div class="wrap py-4">
+   <section id="telephone" class="container-fluid">
+       <div class="row wrap py-4">
            <div class="container">
                <div class="row justify-content-center text-box">
                    <div class="col-12 text-center ">
@@ -145,8 +127,9 @@
        </div>
    </section>
   
-   <section id="how-we-works" class="text-box BgcolorBl">
-       <div class="wrap py-5">
+   <section id="how-we-works" class="container-fluid text-box BgcolorBl">
+      
+       <div class=" row wrap py-5">
           <div class="container">
            <div class="row colorW shadowT align-items-center">
               <div class="col-12 text-center flex-first"><h1>Как мы работаем</h1></div>
@@ -175,14 +158,15 @@
                </div>
            </div>
        </div>
+       
        </div>
-        <div class="border-b"> 
-       </div>
+       <div class="row border-b"> 
+       </div> 
    </section>
    <div class="section" id="map">
        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=nf92dD5zBy0TwKi-WRSvx9tbjb_Sk1_h&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>
    </div>
-   <section id="footer" class="wrap BgcolorBlack py-3">
+   <section id="footer" class=" container-fluid wrap BgcolorBlack py-3">
        <div class="container">
            <div class="row justify-content-between align-items-center text-box">
                <div class="col-xs-12 col-sm-6   col-md-4 col-lg-4  py-3 alpha"><a href="vk.com">мы вконтакте</a><br>
